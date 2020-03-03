@@ -19,13 +19,21 @@ by the actual time stamp. If you need to know the real time stamp you must
 consult it using *git*. Note that files that you created mantain the
 original time stamp.
 
+# Which files are filtered?
+
+* Gerbers
+* Gerber Jobs
+* XML BoMs
+* BoM CSVs from KiBoM
+* BoM HTMLs from KiBoM
+
 # Installation
 
 ## Dependencies
 
 This is a Python 3.x script, only standard modules are used.
 
-##
+## Procedure
 
 To install the script run (as root):
 
