@@ -26,6 +26,8 @@ original time stamp.
 * XML BoMs
 * BoM CSVs from KiBoM
 * BoM HTMLs from KiBoM
+* Netlists
+* PCBs
 
 # Installation
 
