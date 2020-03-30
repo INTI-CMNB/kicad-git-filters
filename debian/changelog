@@ -1,3 +1,9 @@
+kicad-git-filters (1.0.1-1) testing; urgency=medium
+
+  * Added .net and .kicad_pcb filters
+
+ -- Salvador E. Tropea <salvador@kaira.inti.gov.ar>  Mon, 30 Mar 2020 19:23:18 -0300
+
 kicad-git-filters (1.0.0-1) unstable; urgency=low
 
   * Initial release.
