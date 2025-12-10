@@ -110,7 +110,7 @@ if __name__=='__main__':
        old_file=open(git_attributes,"r")
        new_file=open(git_attributes+'.tmp',"w+")
        for line in old_file:
-           z=re.match('(\S+)\s+filter=(\S+)',line)
+           z=re.match(r'(\S+)\s+filter=(\S+)',line)
            if z:
               res=z.groups()
               if not(res[0] in patterns):
@@ -145,7 +145,7 @@ if __name__=='__main__':
        do_skip=False
        for line in old_file:
            # Is the begining of a filter?
-           z=re.match('\[filter\s+\"(\S+)\"\]',line)
+           z=re.match(r'\[filter\s+\"(\S+)\"\]',line)
            if z:
               # Yes
               res=z.groups()
