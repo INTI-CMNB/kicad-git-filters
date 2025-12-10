@@ -1,3 +1,9 @@
+kicad-git-filters (1.0.2-1) stable; urgency=medium
+
+  * Avoid warning in string regex
+
+ -- Salvador Eduardo Tropea <salvador@inti.gob.ar>  Wed, 10 Dec 2025 08:22:45 -0300
+
 kicad-git-filters (1.0.1-1) testing; urgency=medium
 
   * Added .net and .kicad_pcb filters
